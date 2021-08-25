@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../Resources/Logo.png';
+import Logo from '../Resources/Bridgelogo.png';
 import { Link } from "react-router-dom";
 import ReorderIcon from '@material-ui/icons/Reorder';
 import "../Styles/Navbar.css";
@@ -18,15 +18,19 @@ function Navbar() {
                 <div className="hiddenLinks">
                     <Link to ="/"> Home </Link>
                     <Link to ="/Artists"> Artists </Link>
-                    <Link to ="/Login"> Login </Link>
                     <Link to ="/Contact-us"> Contact </Link>
+                    <Link to ="/About"> About </Link>
+                    <Link to ="/Login"> Login </Link>
+                    
                 </div>
             </div>
             <div className="rightSide">
                 <Link to ="/"> Home </Link>
                 <Link to ="/Artists"> Artists </Link>
-                <Link to ="/Login"> Login </Link>
                 <Link to ="/Contact-us"> Contact </Link>
+                <Link to ="/About"> About </Link>
+                <Link to ="/Login"> Login </Link>
+                
                 <button onClick={toggleNavbar}>
                 <ReorderIcon/>
                 </button>
