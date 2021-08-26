@@ -10,10 +10,10 @@ function About() {
             
             </div>
             <div className="aboutBottom">
-                <h1> ABOUT US</h1>
+                <h1> ABOUT US</h1><br/><br/>
                 <p>
                     Bridge is a localized event management solution which is 
-                    designed to promote relaions between artists and event organizers/Managers. 
+                    designed to promote relations between artists and event organizers/Managers. 
                     It allows you as an event organizer to browse through artists who are registered
                     to find an available crafts person to enhance the planning process. Apart from that, 
                     we link event organizers or individuals in need of artists and equipment for their 

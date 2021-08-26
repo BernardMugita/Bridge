@@ -5,7 +5,7 @@
     flex-direction: column;
   }
   
-  .aboutTop {
+.aboutTop {
     width: 1366px;
     height: 45%;
     background-position: center;
@@ -13,8 +13,8 @@
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
-  
-  .aboutBottom {
+
+.aboutBottom {
     display: flex;
     flex-direction: column;
     height: 55%;
@@ -22,13 +22,16 @@
     margin-top: 50px;
   }
   
-  .aboutBottom p {
-    width: 1200px;
+.aboutBottom p {
+    width: 500px;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
   }
   
-  .about .aboutBottom h1 {
+.about .aboutBottom h1 {
     font-weight: 400;
-    font-size: 70px;
+    font-size: 50px;
     color: black;
     height: 30px;
     display: flex;

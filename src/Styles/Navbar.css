@@ -26,12 +26,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   .navbar a {
     color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 10px;
+    padding: 30px 30px;
+    border: 1px solid transparent;
+    transition:0.3s ease;
+    display: inline-block;
+    
+  }
+
+  .navbar a:hover{
+    
+    background-color: #ff00d4;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    color:white;
+  }
+
+  .navbar a.active a{
+    background-color: white;
+    color: black;
+    
   }
   
   .navbar .rightSide button {
